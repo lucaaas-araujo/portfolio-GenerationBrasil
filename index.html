@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    
+
+    <!-- Fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonte do Google - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
-	
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
     <meta name="author" content="Generation Brasil">
     <meta 
         name="description"
@@ -17,64 +23,81 @@
 
     <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg">
 
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- Link para a Folha de Estilo da Página - CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>Portfólio Generation Brasil</title>
 </head>
+
+
 <body>
     <!-- Cabeçalho da Página (header) -->
     <header>
+
         <div class="menu-content">
+
             <!-- TÍTULO -->
             <a href="index.html" id="titulo">Portfólio</a>
+
+            <!-- MENU -->
+            <nav>
+                <ul class="menu-list">
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+
         </div>
 
-        <nav>
-            <ul class="menu-list">
-                <li><a href="#hero">Início</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#projects">Projetos</a></li>
-                <li><a href="#contact">Contatos</a></li>
-            </ul>
-        </nav>
     </header>
 
-    <!-- Seção Principal da Página (main)-->
+    <!-- Seção Principal da Página (main) -->
     <main>
 
-        <!-- Seção de Boas Vindas -->
+        <!-- Seção de Boas vindas -->
         <section id="hero" class="section-container hero-container">
+
             <!-- BOAS VINDAS -->
             <article class="hero-content">
-                <span>👋 Olá, eu sou o Lucas Araujo!</span>
+
+                <span>👋 Olá, eu sou o Lucas Araujo</span>
                 <h1>Desenvolvedor Full Stack</h1>
-                <p>Transformo ideias em código e crio experiências digitais incriveis.</p>
+                <p>Transformo ideias em código e crio experiências digitais incríveis.</p>
 
                 <div class="buttons-container">
-                    <a href="#contact">Entre em Contato</a>
+                    <a href="#contact" class="botao">Entre em Contato</a>
                     <a href="#about" class="botao-outline">Saiba Mais...</a>
                 </div>
+
             </article>
 
             <!-- IMAGEM -->
             <figure class="hero-image">
-                <img src="./assets/img/foto_dev_man.svg" alt="Foto do Autor" class="float-animation">
+                <img src="./assets/img/foto_dev_man.svg" alt="Foto do autor." class="float-animation">
             </figure>
 
         </section>
 
         <!-- Seção Sobre o autor -->
         <section id="about" class="section-container about-container">
+
             <figure class="about-image">
                 <img src="./assets/img/avatar_dev_man.svg" alt="Foto do perfil">
             </figure>
 
             <article class="about-content">
                 <h2>Sobre mim</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt tempora quam possimus inventore fugiat repellat totam, itaque incidunt beatae? Reiciendis mollitia expedita nisi assumenda ullam perferendis cupiditate aspernatur itaque dolor.
-                </p>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur odio est, quasi optio aliquam dolorum magnam, accusantium voluptate rerum deserunt impedit accusamus quae? Nihil quis incidunt repellat est, ex enim.
-                </p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta assumenda, quasi sit reiciendis nihil
+                    id enim facilis iste exercitationem nostrum minus ipsa neque officia dolorum ea optio est quis
+                    magni.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta assumenda, quasi sit reiciendis nihil
+                    id enim facilis iste exercitationem nostrum minus ipsa neque officia dolorum ea optio est quis
+                    magni.</p>
 
                 <div class="about-buttons-data">
                     <div class="buttons-container">
@@ -84,7 +107,7 @@
 
                     <div class="data-container">
                         <div class="data-item">
-                            <span class="data-number">51</span>
+                            <span class="data-number">50+</span>
                             <span class="data-label">Repositórios</span>
                         </div>
                         <div class="data-item">
@@ -107,22 +130,23 @@
                     <div class="swiper-slide">
 
                         <article class="project-card">
-                            <figure class="project-image">
-                                <img src="./assets/icons/languages/github.svg" alt="Icone do GitHub">
-                            </figure>
+                            <div class="project-image">
+                                <img src="./assets/icons/languages/github.svg" alt="Ícone GitHub" />
+                            </div>
 
                             <div class="project-content">
-                                <h3>Projeto 1</h3>
-                                <p>Projeto Desenvolvido...</p>
-                            
-
+                                <h3>Projeto Github</h3>
+                                <p>Projeto Desenvolvido no GitHub</p>
                                 <div class="project-tags">
                                     <span class="tag">GitHub</span>
                                 </div>
-
                                 <div class="project-buttons">
-                                    <a href="#" target="_blank" class="botao botao-sm">GitHub</a>
-                                    <a href="#" target="_blank" class="botao-outline botao-sm">Deploy</a>
+                                    <a href="https://github.com/lucaaas-araujo" target="_blank" class="botao botao-sm">
+                                        GitHub
+                                    </a>
+                                    <a href="#" target="_blank" class="botao-outline botao-sm">
+                                        Deploy
+                                    </a>
                                 </div>
                             </div>
 
@@ -130,9 +154,9 @@
                     </div>
                 </div>
 
-                <!-- Botões da navegação -->
-                 <div class="swiper-button-next"></div>
-                 <div class="swiper-button-prev"></div>
+                <!-- Botões de navegação -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
 
                 <!-- Paginação -->
                 <div class="swiper-pagination"></div>
@@ -141,28 +165,30 @@
 
         <!-- Seção Formulário de Contato e Redes Sociais -->
         <section id="contact" class="section-container contact-container">
+
             <!-- REDES SOCIAIS -->
-             <article class="contact-info">
+            <article class="contact-info">
                 <h2>Entre em Contato</h2>
-                <p>Sinta-se á vontade para entrar em contato comigo!</p>
+                <p>Sinta-se à vontade para entrar em contato comigo!</p>
 
                 <div class="social-container">
-                    <a href="#" target="_blank" class="social-icon" aria-label="LinkedIn">
-                        <img src="./assets/icons/social/linkedin.svg" alt="Link para o LinkedIn">
+                    <a href="https://www.linkedin.com/in/lucaaas-araujo/" target="_blank" class="social-icon" aria-label="LinkedIn">
+                        <img src="./assets/icons/social/linkedin.svg" alt="Link para o Linkedin">
                     </a>
-                    <a href="#" target="_blank" class="social-icon" aria-label="GitHub">
+                    <a href="https://github.com/lucaaas-araujo" target="_blank" class="social-icon" aria-label="GitHub">
                         <img src="./assets/icons/social/github.svg" alt="Link para o GitHub">
                     </a>
-                    <a href="#" target="_blank" class="social-icon" aria-label="Instagram">
+                    <a href="https://www.instagram.com/lucaaas.araujo/" target="_blank" class="social-icon" aria-label="Instagram">
                         <img src="./assets/icons/social/instagram.svg" alt="Link para o Instagram">
                     </a>
                 </div>
-             </article>
+            </article>
 
             <!-- FORMULÁRIO -->
             <form id="formulario">
+
                 <label for="nome">Nome</label>
-                <input id="nome" name="nome" type="text" placeholder="Digite o seu nome Completo">
+                <input id="nome" name="nome" type="text" placeholder="Digite o seu nome completo">
                 <span id="erro-nome"></span>
 
                 <label for="email">E-mail</label>
@@ -174,17 +200,21 @@
                 <span id="erro-assunto"></span>
 
                 <label for="mensagem">Mensagem</label>
-                <textarea name="mensagem" id="mensagem" placeholder="Escreva a sua mensagem aqui..."></textarea>
+                <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem aqui..."></textarea>
                 <span id="erro-mensagem"></span>
 
-                <button class="botao">Enviar Mensagem</button>
+                <button class="botao" type="submit">Enviar Mensagem</button>
             </form>
+
         </section>
+
     </main>
 
-    <!-- Rodapé da Página (footer)-->
+    <!-- Rodapé da Página (footer) -->
     <footer>
-        Desenvolvido por Lucas Araujo - &copy; 2026
+        Desenvolvido por Generation Brasil - 2026
     </footer>
+
 </body>
+
 </html>
